@@ -1,0 +1,29 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "C:/MinGW/include",  // Ruta de MinGW
+                "C:/Archivos de programa/PostgreSQL/17/include",  // Ruta de PostgreSQL
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/MinGW/bin/g++.exe",  // Ruta a g++ en MinGW
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "browse": {
+                "path": [
+                    "C:/MinGW/include",
+                    "C:/Archivos de programa/PostgreSQL/17/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ]
+}

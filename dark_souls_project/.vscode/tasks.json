@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++",
+            "type": "shell",
+            "command": "C:/MinGW/bin/g++.exe",  // Ajusta la ruta si no tienes g++ en este lugar
+            "args": [
+            "-g",
+            "main.cpp",  // Archivo fuente
+            "-o",
+            "dark_souls_app",  // Nombre del archivo de salida
+            "-I", 
+            "C:/Program Files/PostgreSQL/17/include",  // Ruta a los encabezados de PostgreSQL
+            "-L",
+            "C:/Archivos de programa/PostgreSQL/17/lib",  // Ruta a las bibliotecas de PostgreSQL
+            "-lpq"  // Enlazar la librería libpq
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compilación del proyecto C++"
+
+        }
+    ]
+}

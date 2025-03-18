@@ -1,0 +1,16 @@
+INSERT INTO bosses (name, location, health, souls, important_items, status) VALUES
+('Asylum Demon', 'Northern Undead Asylum', 1000, 1000, 'None', 'dead'),
+('Taurus Demon', 'Undead Burg', 1300, 1000, 'Titanite Demon (No drops)', 'alive'),
+('Bell Gargoyles', 'Undead Parish', 2100, 3000, 'Gargoyle Tail Axe, Gargoyle Shield', 'dead'),
+('Capra Demon', 'Lower Undead Burg', 2000, 2000, 'Large Ember, Capra Demon Soul', 'alive'),
+('Pinwheel', 'The Catacombs', 1500, 3000, 'Rite of Kindling, Pinwheel''s Soul', 'alive'),
+('Chaos Witch Quelaag', 'Blighttown', 4500, 10000, 'Chaos Storm, Quelaag''s Furysword', 'dead'),
+('Iron Golem', 'Sen''s Fortress', 4800, 10000, 'Super Armor, Iron Golem Soul', 'alive'),
+('Ornstein & Smough', 'Anor Londo', 3500, 22000, 'Soul of Ornstein, Soul of Smough', 'dead'),
+('Seath the Scaleless', 'The Duke''s Archives', 4800, 60000, 'Broken Pendant, Seath''s Soul', 'alive'),
+('Bed of Chaos', 'Lost Izalith', 5000, 20000, 'None', 'dead'),
+('Gravelord Nito', 'Tomb of the Giants', 11000, 15000, 'Gravelord Sword, Gravelord Soul', 'alive'),
+('The Four Kings', 'New Londo Ruins', 4000, 15000, 'Soul of the Four Kings', 'dead'),
+('Manus, Father of the Abyss', 'Oolacile Township', 10000, 50000, 'Manus'' Soul, Dark Soul', 'alive'),
+('Artorias the Abysswalker', 'The Abyss', 4000, 15000, 'Soul of Artorias, Greatsword of Artorias', 'dead'),
+('Gwyn, Lord of Cinder', 'Kiln of the First Flame', 4000, 50000, 'Soul of Gwyn, Cinders of Gwyn', 'alive');
